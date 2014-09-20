@@ -8,4 +8,5 @@ http://antonyzhao.github.io/rss.xml
 http://antonyzhao.github.io/sitemap.txt
 http://antonyzhao.github.io/tags.html
 
+http://antonyzhao.github.io/swift/2014/09/19/the-power-of-swift
 http://antonyzhao.github.io/lessons/2011/12/29/jekyll-introduction

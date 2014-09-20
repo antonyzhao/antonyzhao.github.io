@@ -236,31 +236,31 @@ Jekyll-bootstrap conveniently provides the base directory format.</p>
 <ul>
   <li>
     <p><strong>_config.yml</strong>
-  Stores configuration data.</p>
+Stores configuration data.</p>
   </li>
   <li>
     <p><strong>_includes</strong>
-  This folder is for partial views.</p>
+This folder is for partial views.</p>
   </li>
   <li>
     <p><strong>_layouts</strong>
-  This folder is for the main templates your content will be inserted into.
-  You can have different layouts for different pages or page sections.</p>
+This folder is for the main templates your content will be inserted into.
+You can have different layouts for different pages or page sections.</p>
   </li>
   <li>
     <p><strong>_posts</strong>
-  This folder contains your dynamic content/posts.
-  the naming format is required to be <code>@YEAR-MONTH-DATE-title.MARKUP@</code>.</p>
+This folder contains your dynamic content/posts.
+the naming format is required to be <code>@YEAR-MONTH-DATE-title.MARKUP@</code>.</p>
   </li>
   <li>
     <p><strong>_site</strong>
-  This is where the generated site will be placed once Jekyll is done transforming it.</p>
+This is where the generated site will be placed once Jekyll is done transforming it.</p>
   </li>
   <li>
     <p><strong>assets</strong>
-  This folder is not part of the standard jekyll structure.
-  The assets folder represents <em>any generic</em> folder you happen to create in your root directory.
-  Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.</p>
+This folder is not part of the standard jekyll structure.
+The assets folder represents <em>any generic</em> folder you happen to create in your root directory.
+Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.</p>
   </li>
 </ul>
 
@@ -448,7 +448,7 @@ That is they have no valid YAML Front Matter and are thus not treated as Jekyll 
 
 <ul>
   <li><strong>Content parsing.</strong>
-  This is done with textile or markdown.</li>
+This is done with textile or markdown.</li>
   <li><strong>Template parsing.</strong>
 This is done with the liquid templating language.</li>
 </ul>
@@ -459,8 +459,8 @@ This is done with the liquid templating language.</li>
   <li><strong>Post and Page files.</strong>
 All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.</li>
   <li><strong>Template files.</strong>
-  These files go in <code>_layouts</code> folder and contain your blogs <strong>templates</strong>. They should be made in HTML with the help of Liquid syntax.
-  Since include files are simply injected into templates they are essentially parsed as if they were native to the template.</li>
+These files go in <code>_layouts</code> folder and contain your blogs <strong>templates</strong>. They should be made in HTML with the help of Liquid syntax.
+Since include files are simply injected into templates they are essentially parsed as if they were native to the template.</li>
 </ul>
 
 <p><strong>Arbitrary files and folders.</strong>
@@ -516,13 +516,13 @@ The following is an outline of how that&#8217;s done:</p>
     <p><strong>Jekyll liquifies posts and templates.</strong>
   Next jekyll loops through each post file and converts (through markdown or textile) and <strong>liquifies</strong> the post inside of its respective layout(s).
   Once the post is parsed and liquified inside the the proper layout structure, the layout itself is &#8220;liquified&#8221;.
- <strong>Liquification</strong> is defined as follows: Jekyll initiates a Liquid template, and passes a simpler hash representation of the ruby site object as well as a simpler
+  <strong>Liquification</strong> is defined as follows: Jekyll initiates a Liquid template, and passes a simpler hash representation of the ruby site object as well as a simpler
   hash representation of the ruby post object. These simplified data structures are what you have access to in the templates.</p>
   </li>
   <li>
     <p><strong>Jekyll generates output.</strong>
- Finally the liquid templates are &#8220;rendered&#8221;, thereby processing any liquid syntax provided in the templates
- and saving the final, static representation of the file.</p>
+  Finally the liquid templates are &#8220;rendered&#8221;, thereby processing any liquid syntax provided in the templates
+  and saving the final, static representation of the file.</p>
   </li>
 </ol>
 
@@ -607,32 +607,28 @@ or jump right into <a href="">Usage</a> if you&#8217;d like.</p>
     
       <li><a href="/archive.html">Archive</a></li>
     
-      <li class="next disabled"><a>Next &rarr;</a>
+      <li class="next"><a href="/swift/2014/09/19/the-power-of-swift" title="The Power Of Swift">Next &raquo;</a></li>
     
     </ul>
     <hr>
     
 
 
-  <!-- 多说评论框 start -->
-        <div class="ds-thread" data-thread-key="/lessons/2011/12/29/jekyll-introduction"  data-title="Jekyll Introduction - Dalajiao"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+  <div id="disqus_thread"></div>
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"dalajiao"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	setInterval(function(){
-		$('p').attr('class','ds-powered-by').remove();
-	},1);
-	</script>
-<!-- 多说公共JS代码 end -->
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
 
 
 
@@ -655,9 +651,14 @@ var duoshuoQuery = {short_name:"dalajiao"};
 
 
 
-  <script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F75bbfb57544e85dcadadbc207a9478f9' type='text/javascript'%3E%3C/script%3E"));
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?75bbfb57544e85dcadadbc207a9478f9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
 
 
