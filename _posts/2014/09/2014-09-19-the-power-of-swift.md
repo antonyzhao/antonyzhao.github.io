@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Swift
-tagline: "Swift"
+tagline: ""
 tags: [Swift]
 ---
 {% include JB/setup %}

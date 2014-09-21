@@ -5,10 +5,28 @@
         <description>Dalajiao - Antony</description>
         <link>http://antonyzhao.github.io</link>
         <link>http://antonyzhao.github.io</link>
-        <lastBuildDate>2014-09-20T14:38:31+08:00</lastBuildDate>
-        <pubDate>2014-09-20T14:38:31+08:00</pubDate>
+        <lastBuildDate>2014-09-21T21:53:22+08:00</lastBuildDate>
+        <pubDate>2014-09-21T21:53:22+08:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Ios8 Size Classes Orientation</title>
+                <description>
+</description>
+                <link>http://antonyzhao.github.io/ios/2014/09/22/ios8-size-classes-orientation</link>
+                <guid>http://antonyzhao.github.io/ios/2014/09/22/ios8-size-classes-orientation</guid>
+                <pubDate>2014-09-22T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>Ios8 Dev Summery</title>
+                <description>
+</description>
+                <link>http://antonyzhao.github.io/ios/2014/09/20/ios8-dev-summery</link>
+                <guid>http://antonyzhao.github.io/ios/2014/09/20/ios8-dev-summery</guid>
+                <pubDate>2014-09-20T00:00:00+08:00</pubDate>
+        </item>
 
         <item>
                 <title>The Power Of Swift</title>
