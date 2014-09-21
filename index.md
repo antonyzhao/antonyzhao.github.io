@@ -4,7 +4,7 @@ title: []
 tagline: 
 ---
 
-<p><b>文章列表</b></p>
+<p><b>Article List:</b></p>
 <ul>
 {% for post in site.posts %}
 <li>
