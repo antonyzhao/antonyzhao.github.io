@@ -11,4 +11,3 @@ http://antonyzhao.github.io/tags.html
 http://antonyzhao.github.io/ios/2014/09/22/ios8-size-classes-orientation
 http://antonyzhao.github.io/ios/2014/09/20/ios8-dev-summery
 http://antonyzhao.github.io/swift/2014/09/19/the-power-of-swift
-http://antonyzhao.github.io/lessons/2011/12/29/jekyll-introduction
